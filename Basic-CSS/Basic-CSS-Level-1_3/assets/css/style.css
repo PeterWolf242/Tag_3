@@ -1,0 +1,16 @@
+nav {
+    background-color: darkgray;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: underline;
+}
+
+p span {
+    color: red;
+}

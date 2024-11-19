@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color_white: #ffffff;
+    --color_black: #000000;
+    --color_red: rgb(228, 20, 20);
+    --color_green: rgb(74, 226, 74);
+    --color_blue: #858d9d;
+    --color_tuerkis: #85badb;
+    --color_purple: #db97dc;
+}
+
+body {
+    background-color: var(--color_white);
+}
+
+header {
+    background-color: var(--color_white);
+    padding: 0.5rem 2rem;
+}
+
+header p {
+    color: var(--color_black);
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.bg_view {
+    width: 100%;
+    position: relative;
+}
+
+.picture {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bg_view h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--color_white);
+    font-weight: 300;
+    font-size: 3rem;
+}
+
+h2 {
+    margin: 4rem auto;
+    text-align: center;
+}
+
+main p {
+    width: 70%;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0 auto 4rem auto;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box {
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    margin: 2rem;
+}
+
+.box img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h2 {
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+ul {
+    display: block;
+    width: 70%;
+    margin: 0 auto 6rem auto;
+    list-style: none;
+    line-height: 2;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li:nth-of-type(1) span,
+ul li:nth-of-type(2) span,
+ul li:nth-of-type(3) span,
+ul li:nth-of-type(4) span {
+    color: var(--color_red);
+    font-weight: bold;
+}
+
+ul li:nth-of-type(5) span,
+ul li:nth-of-type(6) span {
+    color: var(--color_green);
+    font-weight: bold;
+}
+
+hr {
+    width: 100%;
+    height: 2px;
+    background-color: var(--color_black);
+    margin-bottom: 2rem;
+}
+
+footer {
+    width: 100%;
+}
+
+footer h3 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+footer .icons {
+    display: block;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+footer .icons p {
+    display: inline-block;
+    width: fit-content;
+    margin: 0 2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+footer .icons p:nth-of-type(1) {
+    color: var(--color_blue);
+}
+
+footer .icons p:nth-of-type(2) {
+    color: var(--color_tuerkis);
+}
+
+footer .icons p:nth-of-type(3) {
+    color: var(--color_purple);
+}

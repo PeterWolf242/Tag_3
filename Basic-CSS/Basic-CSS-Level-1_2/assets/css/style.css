@@ -1,0 +1,16 @@
+h2, h3 {
+    text-align: center;
+}
+
+h4 {
+    background-color: lightgray;
+}
+
+p {
+    color: black;
+    text-align: left;
+}
+
+span {
+    font-style: italic;
+}

@@ -1,0 +1,15 @@
+body {
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.box {
+    display: flex;
+    width: 200px;
+    aspect-ratio: 1/1;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: mediumaquamarine;
+    padding: 25px;
+    border: 25px solid black;
+}
